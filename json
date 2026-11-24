@@ -1,0 +1,38 @@
+{
+    "studentId": "BT001",
+    "name": "Damini",
+    "email": "damini@gmail.com",
+    "phone": "9876543210",
+    "department": "Biotechnology",
+    "year": 1,
+    "semester": 1,
+    "cgpa": 9.1,
+
+    "courses": [
+
+        {
+            "name": "Cell Biology",
+            "marks": 88,
+            "attendance": 92
+        },
+
+        {
+            "name": "Biochemistry",
+            "marks": 91,
+            "attendance": 95
+        },
+
+        {
+            "name": "Microbiology",
+            "marks": 85,
+            "attendance": 89
+        },
+
+        {
+            "name": "Data Structures",
+            "marks": 82,
+            "attendance": 90
+        }
+
+    ]
+}

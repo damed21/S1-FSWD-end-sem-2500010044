@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Student Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <h1>Student Management System</h1>
+
+    <button onclick="logout()">
+        Logout
+    </button>
+
+</header>
+
+
+<div class="dashboard">
+
+    <h2>Welcome, <span id="studentName"></span></h2>
+
+
+    <div class="card">
+
+        <h3>Personal Information</h3>
+
+        <p>
+            <strong>Student ID:</strong>
+            <span id="studentId"></span>
+        </p>
+
+        <p>
+            <strong>Email:</strong>
+            <span id="studentEmail"></span>
+        </p>
+
+        <p>
+            <strong>Phone:</strong>
+            <span id="studentPhone"></span>
+        </p>
+
+        <p>
+            <strong>Department:</strong>
+            <span id="department"></span>
+        </p>
+
+        <p>
+            <strong>Year:</strong>
+            <span id="year"></span>
+        </p>
+
+        <p>
+            <strong>Semester:</strong>
+            <span id="semester"></span>
+        </p>
+
+        <p>
+            <strong>CGPA:</strong>
+            <span id="cgpa"></span>
+        </p>
+
+    </div>
+
+
+    <div class="card">
+
+        <h3>Courses</h3>
+
+        <table>
+
+            <thead>
+
+                <tr>
+
+                    <th>Course</th>
+                    <th>Marks</th>
+                    <th>Attendance</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody id="coursesTable">
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
